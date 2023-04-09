@@ -1,0 +1,144 @@
+:root{
+    --turquesa: #20FFC5;
+    --color1: #302d2c;
+    --color2: #645947;
+    --color3: #666c96;
+    --color4: #b4adc0;
+    --color5: #f1f0ee;
+    --blanco: #ffffff;
+    --gold: #FFD700;
+    --negro: #000;
+
+}
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Skranji', cursive;
+    background-color: var(--color5);
+}
+nav {
+    width: 100%;
+    border-bottom: 1px solid var(--color3);
+    background: var(--color4);
+}
+.navcontainer {
+    /* background-color: var(--blanco); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.icono_cuervo {
+    /* background-color: var(--blanco); */
+    width: 48px;
+    height: 48px;   
+    object-fit: cover;
+    padding: 24px;
+    
+}
+.navcontainer ul {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav img:nth-child(1){
+    transform: rotateY(3.142rad);
+    
+}
+
+li a {
+    padding: 20px 60px;
+    margin: 12px;
+    text-decoration: none;
+    color: var(--gold);
+    background-color: var(--color1);
+    border-radius: 8px;
+    
+}
+section {   
+    margin: 0 200px 200px;
+    padding: 0 50px;
+    border-left: 1px solid var(--color4);
+    border-right: 1px solid var(--color4);
+    
+}
+.titulo {    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color4);
+}
+.titulo img{
+    width: 48px;
+    height: 48px;   
+    object-fit: cover;
+    padding: 18px;
+}
+/* paginas de lecturas */
+/* .lectura3runas ul {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+} */
+.lectura3runas {
+    display: flex;
+    justify-content: space-around;
+
+}
+.lectura3runas ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.lectura3runas ul li {
+    margin: 8px;
+}
+
+.cuadrosrunas {
+    width: 24px;
+    height: 32px;
+    border: 1px solid var(--color1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.cincoRunas {   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style:decimal;
+    /* padding-bottom: 8px; */
+}
+.cincoRunas li {
+    padding-bottom: 8px;
+}
+.runascontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.runainfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--color4);
+    border-radius: 4px;
+    margin-top: 12px;
+}
+.runainfo img {
+    border-radius: 8px;
+    border: 2px solid var(--color3);
+}
